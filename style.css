@@ -77,6 +77,10 @@ nav{
   border-radius: 7px;
 }
 
+.threeline{
+  display:none;
+}
+
 #contact-us:hover{
   background-color:#078F3E;
 }
@@ -572,8 +576,16 @@ line-height: 74px;
 
   .nav-links li a{
     font-size: 12px;
-  } 
- 
+  }
+
+  .threeline{
+    display:inline;
+  }
+
+  nav{
+    display: none;  
+  }
+
   .text-video{
     flex-direction: column;
   }
@@ -627,6 +639,11 @@ line-height: 74px;
   .container2{
     width: 100%;
   }
+  
+  .container2-1{
+    display:flex;
+    flex-wrap: wrap;
+  }
 
   .container2 h2{
     width:100% ;
@@ -635,8 +652,8 @@ line-height: 74px;
   }
     
   .content2-1{
-    width: 23%;
-    padding:10px
+    width: 50%;
+    padding:10px;
   }
     
   .content2-1 p{
@@ -723,12 +740,15 @@ line-height: 74px;
 }
 
 .container9-2{
+  flex-wrap: wrap;
   margin:0;
 }
   
 .email{
   width: 78%;
 }
+
+.email button{display:none;}
 }
 
 
